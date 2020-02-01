@@ -612,7 +612,7 @@ img {
     }
     
     .container .header .logo a {
-        margin: 40px auto;
+        margin: 80px auto 40px;
     }
     
     .container .logo {
@@ -706,9 +706,20 @@ img {
     }
     
     .section .main_newseason .main_newseason_txt p:nth-child(2) {
-        font-size: 40px;
-        letter-spacing: 7px;
-        line-height: 50px;
+        font-size: 30px;
+        letter-spacing: 1px;
+        line-height: 38px;
+    }
+    
+    .section .main_about ul li:nth-child(1) p:nth-child(1) {
+        
+        font-size: 30px;
+        line-height: 38px;
+        letter-spacing: 1px;
+    }
+    
+    .section .main_about ul li:nth-child(2) {
+        font-size: 13px;
     }
     
     .section .main_newseason .newseason_img {
@@ -724,8 +735,21 @@ img {
     }
     
     .section .main_email {
-        margin: 0;
         margin: 120px auto;
+    }
+    
+    .section .main_email h3 {
+        font-size: ;
+        letter-spacing: 01px;
+        
+    }
+    
+    .section .main_email input {
+        margin-top: 10px;
+    }
+    
+    .section .main_email button {
+        margin-top: 10px;
     }
 
     .section .main_about {
@@ -735,15 +759,16 @@ img {
     
     .section .main_about ul li:nth-child(1) {
         width: 100%;
-        margin: 0 0 40px;
+        margin: 0 0 20px;
     } 
     
     .section .main_about ul li:nth-child(2) p {
         margin: 0;
         padding: 0;
         width: 100%;
-        font-size: 12px;
         text-align: left;
+        line-height: 22px;
+        font-size: 13px;
     }
     
     .section .main_best {
@@ -762,7 +787,8 @@ img {
     .section .main_best .main_best_m li {
         width: 100%;
         height: 500px;
-        margin-bottom: 320px;
+        margin-bottom: 300px;
+        
     }
     
     
@@ -791,11 +817,11 @@ img {
     
 
     .section .main_best .main_best_m .main_best_box p:nth-child(2) {
-        font-size: 35px;
+        font-size: 32px;
         margin: 10px 0;
         color: #000;
         letter-spacing: 3px;
-        line-height: 45px;
+        line-height: 40px;
     }
     
     .section .main_best .main_best_m .main_best_box2 {
@@ -803,7 +829,9 @@ img {
         top: 80%;
         margin-top: 20px;
         text-align: left;
-        line-height: 30px;
+        line-height: 22px;
+        font-size: 13px;
+        font-family: 'karla';
     }
     
     
@@ -828,8 +856,8 @@ img {
     .section .main_insta ul li:nth-child(1) {
         margin: 0;
         text-align: left;
-        font-size: 30px;
-        line-height: 40px;
+        font-size: 25px;
+        line-height: 30px;
         letter-spacing: 2px;
         padding: 20px 0;
     }
