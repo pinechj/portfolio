@@ -891,6 +891,10 @@ img {
     width: 80%;
 }
 
+.about_top-m {
+    display: none;
+}
+
 #about_left {
     width: 70%;
     margin-top: 80px;
@@ -1016,9 +1020,15 @@ img {
 /*모바일*/
 @media all and (max-width: 768px) { 
 
-    .about_top {
+    
+    .about_top-pc {
+        display: none;
         width: 100%;
         margin: 40px 0 0;
+    }
+    
+    .about_top-m {
+        display: block;
     }
     
     .about_top img {
@@ -1909,8 +1919,8 @@ section .shopmenu_list li a:hover{
 }
 
 .section .press .press-txt {
-    font-size: 18px;
-    letter-spacing: 2px;
+    font-size: 25px;
+    letter-spacing: 0.5px;
     margin-bottom: 3px;
 }
 
@@ -1944,8 +1954,8 @@ section .shopmenu_list li a:hover{
     }
 
     .section .press .press-txt {
-        font-size: 13px;
-        letter-spacing: 1px;
+        font-size: 15px;
+        letter-spacing: 0px;
     }
 }
 
