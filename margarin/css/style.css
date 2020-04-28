@@ -612,7 +612,7 @@ img {
     }
     
     .container .header .logo a {
-        margin: 80px auto 40px;
+        margin: 40px auto;
     }
     
     .container .logo {
@@ -669,12 +669,9 @@ img {
     }
 
     .container .gnb ul li {
-        color: #000;
-        margin: 10px 0;
         display: block;
+        margin: 10px 0;
     }
-    
-  
     
     /*gnb 아래 라인
 
@@ -709,20 +706,9 @@ img {
     }
     
     .section .main_newseason .main_newseason_txt p:nth-child(2) {
-        font-size: 30px;
-        letter-spacing: 1px;
-        line-height: 38px;
-    }
-    
-    .section .main_about ul li:nth-child(1) p:nth-child(1) {
-        
-        font-size: 30px;
-        line-height: 38px;
-        letter-spacing: 1px;
-    }
-    
-    .section .main_about ul li:nth-child(2) {
-        font-size: 13px;
+        font-size: 40px;
+        letter-spacing: 7px;
+        line-height: 50px;
     }
     
     .section .main_newseason .newseason_img {
@@ -738,21 +724,8 @@ img {
     }
     
     .section .main_email {
+        margin: 0;
         margin: 120px auto;
-    }
-    
-    .section .main_email h3 {
-        font-size: ;
-        letter-spacing: 01px;
-        
-    }
-    
-    .section .main_email input {
-        margin-top: 10px;
-    }
-    
-    .section .main_email button {
-        margin-top: 10px;
     }
 
     .section .main_about {
@@ -762,16 +735,15 @@ img {
     
     .section .main_about ul li:nth-child(1) {
         width: 100%;
-        margin: 0 0 20px;
+        margin: 0 0 40px;
     } 
     
     .section .main_about ul li:nth-child(2) p {
         margin: 0;
         padding: 0;
         width: 100%;
+        font-size: 12px;
         text-align: left;
-        line-height: 22px;
-        font-size: 13px;
     }
     
     .section .main_best {
@@ -790,8 +762,7 @@ img {
     .section .main_best .main_best_m li {
         width: 100%;
         height: 500px;
-        margin-bottom: 300px;
-        
+        margin-bottom: 320px;
     }
     
     
@@ -820,11 +791,11 @@ img {
     
 
     .section .main_best .main_best_m .main_best_box p:nth-child(2) {
-        font-size: 32px;
+        font-size: 35px;
         margin: 10px 0;
         color: #000;
         letter-spacing: 3px;
-        line-height: 40px;
+        line-height: 45px;
     }
     
     .section .main_best .main_best_m .main_best_box2 {
@@ -832,9 +803,7 @@ img {
         top: 80%;
         margin-top: 20px;
         text-align: left;
-        line-height: 22px;
-        font-size: 13px;
-        font-family: 'karla';
+        line-height: 30px;
     }
     
     
@@ -857,12 +826,12 @@ img {
     }
     
     .section .main_insta ul li:nth-child(1) {
-        
+        margin: 0;
         text-align: left;
-        font-size: 25px;
-        line-height: 30px;
+        font-size: 30px;
+        line-height: 40px;
         letter-spacing: 2px;
-        padding: 20px 0 0;
+        padding: 20px 0;
     }
     
     .footer {
@@ -870,13 +839,8 @@ img {
     }
     
     .footer .footer-logo img {
-        width: 20%;
+        width: 30%;
     }
-    
-    .footer .copyright {
-        font-size: 10px;
-    }
-
 
 }
 
@@ -889,10 +853,6 @@ img {
     position: relative;
     top:0;
     width: 80%;
-}
-
-.about_top-m {
-    display: none;
 }
 
 #about_left {
@@ -1020,15 +980,9 @@ img {
 /*모바일*/
 @media all and (max-width: 768px) { 
 
-    
-    .about_top-pc {
-        display: none;
+    .about_top {
         width: 100%;
         margin: 40px 0 0;
-    }
-    
-    .about_top-m {
-        display: block;
     }
     
     .about_top img {
@@ -1069,8 +1023,6 @@ img {
         width: 100%;
         position: relative;
         text-align: left;
-        padding: 0;
-        
     }
     
     #about_right .about_copy {
@@ -1092,7 +1044,7 @@ img {
     }
 
     #about_right .about_touch .touch_txt {
-        margin: 10px 0 80px;
+        margin: 10px 0 40px;
         font-size: 13px;
     }
 
@@ -1103,21 +1055,17 @@ img {
 
     #about_right .about_insta {
         text-align: center;
-        margin-top: 80px;
     }
 
     #about_right .about_insta h3 {
-        width: 100%;
+        width: 50%;
         font-size: 28px;
-        margin: 0 0 10px;
+        margin: 0 auto 20px;
     }
 
     #about_right .about_insta ul li {
         width: 100%;
-        padding: 10px;
-        border: .5px solid #ddd;
-        box-sizing: border-box;
-        margin-bottom: 10px;
+        padding: 0 0 10px 0;
     }
 
     #about_right .about_insta ul li a {
@@ -1213,8 +1161,6 @@ img {
     
     .section .lookbook1 .lookbook1-2 {
         background-color: #fff;
-        
-        padding: 0;
     }
     
     .section .lookbook1 .lookbook1-2 ul li{
@@ -1380,7 +1326,7 @@ img {
 
 
 .section .shopmenu_list {
-    width: 50%;
+    width: 20%;
     float: left;
 }
 
@@ -1393,11 +1339,6 @@ section .shopmenu_list li a{
     display: block;
     color: #000;
 }
-
-section .shopmenu_list li a span {
-    color: #b72020;
-}
-
 
 section .shopmenu_list li a:hover{
     color: #555;
@@ -1419,6 +1360,9 @@ section .shopmenu_list li a:hover{
     margin: 7px auto 10px; 
 }
 
+.section .shop_container div{
+    margin-bottom: 40px;
+}
 
 .section .shop_container li {
     width: 25%;
@@ -1430,12 +1374,11 @@ section .shopmenu_list li a:hover{
     text-align: center;
 }
 
-
 .section .shop_container ul li p{
-    color: #333;
-    font-family: 'karla';
-    font-size: 13px;
-}
+        color: #333;
+        font-family: 'karla';
+        font-size: 13px;
+    }
     
 .section .shop_container ul li p span {
     color: #000;
@@ -1452,9 +1395,7 @@ section .shopmenu_list li a:hover{
     font-weight: normal;
     line-height: 25px;
     clear: both;
-    margin-bottom: 10px;
-    margin-right: 15px;
-    padding-bottom: 5px;
+    margin-bottom: 5px;
 }
 
 
@@ -1503,27 +1444,8 @@ section .shopmenu_list li a:hover{
         width: 100%;
     }
     
-    .section .shop_container .shop-su {
-       margin-top: 40px;
-        margin-bottom: 15px;
-        margin-right: 15px;
-        text-align: left;
-    }
-   
-    .section .shop_container .shop-su h2{
-        display: inline-block;
-        line-height: 0;
-        padding: 0;
-        margin-left: 10px;
-        font-size: 18px;
-    }
-    
     .section .shop_container .line {
-        display: block;
-        width: 100%;;
-        height: 2px;
-        background: #000;
-        
+        display: none;
     }
     
     .section .shop_container ul li {
@@ -1531,6 +1453,11 @@ section .shopmenu_list li a:hover{
         margin-bottom: 10px;
     }
     
+    .section .shop_container h2 {
+        font-size: 18px;
+        text-align: left;
+        margin-bottom: 5px;
+    }
     
     .section .shop_container .best {
         margin-top: 20px;
@@ -1919,8 +1846,8 @@ section .shopmenu_list li a:hover{
 }
 
 .section .press .press-txt {
-    font-size: 25px;
-    letter-spacing: 0.5px;
+    font-size: 18px;
+    letter-spacing: 2px;
     margin-bottom: 3px;
 }
 
@@ -1954,8 +1881,8 @@ section .shopmenu_list li a:hover{
     }
 
     .section .press .press-txt {
-        font-size: 15px;
-        letter-spacing: 0px;
+        font-size: 13px;
+        letter-spacing: 1px;
     }
 }
 
