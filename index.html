@@ -1,439 +1,144 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta name="author" content="portfolio-main" />
-  <meta name="apple-mobile-web-app-title" content="portfolio-main" />
-  <meta name="format-detection" content="telephone=no, address=no, email=no" />
-  <title>Portfolio</title>  
-  
-   <!--모바일 연결소스-->
-   <script type="text/javascript">
-        var mobileKeyWords = new Array('iPhone', 'iPod', 'BlackBerry', 'Android', 'Windows CE', 'LG', 'MOT', 'SAMSUNG', 'SonyEricsson');
-        for (var word in mobileKeyWords){
-            if (navigator.userAgent.match(mobileKeyWords[word]) != null){location.href = "https://pinechj.github.io/portfolio/m/";
-                break;
-            }
-        }
-    </script> 
-  
-  <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-  
-  <link rel="shortcut icon" href="img/b-32x32.png">
-  <link rel="stylesheet" href="css/pf_style.css">
-  <script src="js/lib/jquery-1.12.4.min.js"></script>
-  <script src="js/lib/jquery.easing.1.3.js"></script>
-  <script src="js/pf_main.js"></script>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <title>최혜지 PORTFOLIO</title>
+    <meta name="description" content="Naturally sourced Brontide (Butylene Glycol) is a high performance ingredient used in a variety of personal care and cosmetic applications. It’s a great humectant and boosts preservative efficacy.  It also can be used to add texture to a lotion or as a stabilizer for extracts.">
+    <meta name="keywords" content="">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="https://www.brontidebg.com/images/apple-touch-icon.png?v=BGAlKXjlyv">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://www.brontidebg.com/images/favicon-32x32.png?v=BGAlKXjlyv">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://www.brontidebg.com/images/favicon-16x16.png?v=BGAlKXjlyv">
+    <link rel="manifest" href="https://www.brontidebg.com/site.webmanifest?v=BGAlKXjlyv">
+    <link rel="mask-icon" href="https://www.brontidebg.com/images/safari-pinned-tab.svg?v=BGAlKXjlyv" color="#000000">
+    <link rel="shortcut icon" href="https://www.brontidebg.com/images/favicon.ico?v=BGAlKXjlyv">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+
+    <meta prefix="og: http://ogp.me/ns#" property="og:title" content="Brontide">
+    <meta prefix="og: http://ogp.me/ns#" property="og:site_name" content="">
+    <meta prefix="og: http://ogp.me/ns#" property="og:url" content="https://www.brontidebg.com">
+    <meta prefix="og: http://ogp.me/ns#" property="og:image" content="https://www.brontidebg.com/images/share.jpg">
+    <meta prefix="og: http://ogp.me/ns#" property="og:description" content="Naturally Sourced Butylene Glycol">
+
+    <meta property="og:type" content="article">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://www.brontidebg.com/images/share.jpg">
+    <meta name="twitter:description" content="Naturally Sourced Butylene Glycol">
+    <meta name="twitter:title" content="Brontide">
+    <meta name="twitter:creator" content="@Genomatica">
+
+    <link rel="stylesheet" href="css/eric_meyer.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <!--
+    [if lt IE 9]>
+    <script src="/js/html5shiv.min.js"></script>
+    <script src="/js/respond.min.js"></script>
+    <![endif]
+    -->
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="/js/jquery-1.12.4.min.js"><\/script>')
+
+    </script>
+    <script src="js/common_v170901.js"></script>
 </head>
 
 <body>
-  <div class="wrap">
-      
-    <nav class="gnb" id="gnb-pc">
+    <a class="sr-only sr-only-focusable" href="index.html">HOME</a>
+    <a class="sr-only sr-only-focusable" href="resume.html">RESUME</a>
+    <a class="sr-only sr-only-focusable" href="01.html">01 MARGARIN FINGERS</a>
+    <a class="sr-only sr-only-focusable" href="02.html">02 TAEYEON</a>
+    <a class="sr-only sr-only-focusable" href="03.html">03 INNISFREE SUPERFOOD</a>
+    <a class="sr-only sr-only-focusable" href="04.html">04 MINI HATCH</a>
+    <a class="sr-only sr-only-focusable" href="05.html">05 HWASAHAN</a>
+    <a class="sr-only sr-only-focusable" href="06.html">06 BIBLE WORD BOOKMARK</a>
+    <a class="sr-only sr-only-focusable" href="07.html">07 CHANEL LEAFLET</a>
+    <a class="sr-only sr-only-focusable" href="08.html">08 WEDDING BROCHURE</a>
+    <a class="sr-only sr-only-focusable" href="09.html">09 VISIONCAMP GOODS</a>
+    <a class="sr-only sr-only-focusable" href="10.html">10 SUMMERCAMP POSTER</a>
+    <div id="wrap">
         
-      <ul class="main_gnb">
-        <li><a href="#">HOME</a></li>
-        <p></p>
-        <div>WEB</div>
-            <li><a href="#">Margarin Fingers</a></li>
-            <li><a href="#">GAGU</a></li>
-            <li><a href="#">Innisfree</a></li> 
-            <li><a href="#">MINI hatch</a></li> 
-      
-        <p></p>  
-        <div>UXUI</div>
-            <li><a href="#">HWASAHAN</a></li>
-          
-         <p></p> 
-          <div>Graphic</div>
-            <li><a href="#">Bible Card</a></li>
-            <li><a href="#">CHANEL</a></li>
-            <li><a href="#">Wedding Worship </a></li>
-            <li><a href="#">Unique</a></li>
-            <li><a href="#">SOHWAKHAENG</a></li>
-
-         <p></p> 
-        <li><a href="#">CONTACT</a></li>
-      </ul>
-        
-    </nav>
-      
-      
-      
-      
-    <main class="main">
-      <div class="slide">
-          
-        <section class="home">
-          <div class="line"></div>
-          <div class="intro">
-            <p class="alt-font">PORTFOLIO</p>
-            <h1 class="alt-font">CHOI HYE JI</h1>
-            <p class="alt-font">WEB Publishing / WEB Design / GRAPHIC DESIGN</p>
-            <p class="alt-font" id="subsub">모든 포트폴리오는 개인 작업이며, 퍼블리싱 참여도 100%의 하드코딩으로 이루어졌습니다 :&#41; </p>
-          </div>
-        </section>
-          
-          
-          
-          
-        <section id="margarin">
-          <div class="bg"></div>
+        <header id="header">
+           
+           
+            <div class="header_pos">
+                <button aria-label="open menu" tabindex="0" class="menu_btn">
+                    <span class="menu_line"></span>
+                    <span class="menu_line"></span>
+                    <span class="menu_line"></span>
+                </button>
+                <span class="scroll">Web/UI/Graphic</span>
+                <span class="request">2020</span>
+            </div>
             
-          <div class="p-img">
-              <img src="img/margarin1.png" alt="margarin">
-          </div>
             
-          <div class="info">
-            <h5>Margarin Fingers Site Renewal</h5>
-            <h2 class="title">마가린핑거스 웹사이트 리뉴얼</h2>
-              
-              
-            <ul class="feature">
+            <div class="gnb">
+                <ul class="gnb">
+                    <li class="m-menu"><a href="index.html">HOME</a></li>
+                    <li class="m-menu"><a href="resume.html">RESUME</a></li>
+                    <li class="m-menu"><a href="#">WEB/UI</a>
+                        <ul>
+                            <li class="s-menu"><a href="01.html">01 MargarinFingers</a></li>
+                            <li class="s-menu"><a href="02.html">02 Taeyeon</a></li>
+                            <li class="s-menu"><a href="03.html">03 Innisfree Superfood</a></li>
+                            <li class="s-menu"><a href="04.html">04 Mini Hatch</a></li>
+                            <li class="s-menu"><a href="05.html">05 Hwasahan</a></li>
+                        </ul>
+                    </li>
+                    <li class="m-menu"><a href="#">GRAPHIC</a>
+                        <ul>
+                            <li class="s-menu"><a href="06.html">06 Bible Word Bookmark</a></li>
+                            <li class="s-menu"><a href="07.html">07 Chanel Leaflet</a></li>
+                            <li class="s-menu"><a href="08.html">08 Wedding Brochure</a></li>
+                            <li class="s-menu"><a href="09.html">09 Visioncamp Goods</a></li>
+                            <li class="s-menu"><a href="10.html">10 Summercamp Poster</a></li>
+                        </ul>
+                    </li>
+                    <li class="m-menu"><a href="#">CONTACT</a></li>
+                </ul>
                 
-              <li>
-                <span class="t">Viewport</span>
-                <span class="d">반응형</span>
-              </li>
-              <li>
-                <span class="t">Tools</span>
-                <span class="d">Ps + HTML5 + CSS + jQuery</span>
-              </li>
-              <li>
-                <span class="t">구성</span>
-                <span class="d">Main page, Sub page5</span>
-              </li>
-            </ul>
-              
-            <a href="./margarin/index.html" target="_blank" class="btn">VIEW</a>
-              
-          </div>
-        </section>
-          
-          
-          
-          
-        <section class="gagu">
-          <div class="bg"></div>
-            
-          <div class="p-img">
-              <img src="img/bingo.jpg" alt="bingo">
+                
+                <span>(C) 2020.ChoiHyeJi. All rights reserved.</span>
+                
+                <div class="header_imgbox">
+                    <img src="img/header_1.png" alt="header_bg" class="header_img">
+                </div>
+                
             </div>
             
-          <div class="info">
-            <h5>Gagu Site WebDesign</h5>
-            <h2 class="title">가구 웹사이트 디자인</h2>
-              
-            <ul class="feature">
-              <li>
-                <span class="t">Viewport</span>
-                <span class="d">PC형</span>
-              </li>
-              <li>
-                <span class="t">Tools</span>
-                <span class="d">Ps + HTML5 + CSS + jQuery</span>
-              </li>
-              <li>
-                <span class="t">구성</span>
-                <span class="d">메인 페이지, 검색 페이지</span>
-              </li>
-              
-            </ul>
-              
-            <a href="https://portfolio31.herokuapp.com/bingo" target="_blank" class="btn">VIEW</a>
-              
-          </div>
-        </section>
-          
-          
-          
-          
-          
-        <section class="innisfree">
-          <div class="bg"></div>
+        </header>
+        
+        
+        <div id="container" class="clearfix">
+            <section class="sec_01">
+                
+                <div class="text-wrap">
+                    <div class="vertical">
+                       <div class="vertical_txt">
+                           <div class="scroll">
+                               <img src="img/scroll07.gif" alt="scroll">
+                               <div class="click">click here!</div>
+                           </div>
+                            <h1>choihyeji</h1>
+                            <h2>PORTFOLIO</h2>
+                        </div>
+                    </div>
+                </div>
+            </section>
             
-          <div class="p-img">
-              <img src="img/br.jpg" alt="innisfree">
-            </div>
             
-          <div class="info">
-            <h5>Innisfree Superfood webpage Design </h5>
-            <h2 class="title">이니스프리 슈퍼푸드 메인 웹디자인</h2>
-              
-            <ul class="feature">
-              <li>
-                <span class="t">Viewport</span>
-                <span class="d">PC형</span>
-              </li>
-              <li>
-                <span class="t">Tools</span>
-                <span class="d">Illustrator</span>
-              </li>
-              <li>
-                <span class="t">구성</span>
-                <span class="d">메인 페이지</span>
-              </li>
-              
-            </ul>
-              
-            <a href="http://academyjungle.co.kr/LocalUser/jungleseoul/WPPP_seoul_02/ParkKyuTae/03_br/index.html" target="_blank" class="btn">VIEW</a>
-              
-          </div>
-        </section>
-          
-          
-          
-        <section class="minihatch">
-          <div class="bg"></div>
-            
-          <div class="p-img">
-              <img src="img/br.jpg" alt="minihatch">
-            </div>
-            
-          <div class="info">
-            <h5>WEB Publishing - Gagu Website Design</h5>
-            <h2 class="title">미니해치 웹사이트 디자인</h2>
-              
-            <ul class="feature">
-              <li>
-                <span class="t">Viewport</span>
-                <span class="d">PC형</span>
-              </li>
-              <li>
-                <span class="t">Tools</span>
-                <span class="d">Ps</span>
-              </li>
-              <li>
-                <span class="t">구성</span>
-                <span class="d">메인 페이지</span>
-              </li>
-              
-            </ul>
-              
-            <a href="http://academyjungle.co.kr/LocalUser/jungleseoul/WPPP_seoul_02/ParkKyuTae/03_br/index.html" target="_blank" class="btn">VIEW</a>
-              
-          </div>
-        </section>
-            
-          
-          
-       <section class="hwaahan">
-          <div class="bg"></div>
-            
-          <div class="p-img">
-              <img src="img/br.jpg" alt="minihatch">
-            </div>
-            
-          <div class="info">
-            <h5>화장품 사용기한 알리미 Application UXUI Design</h5>
-            <h2 class="title">화사한 어플 UXUI디자인</h2>
-              
-            <ul class="feature">
-              <li>
-                <span class="t">Viewport</span>
-                <span class="d">PC형</span>
-              </li>
-              <li>
-                <span class="t">Tools</span>
-                <span class="d">Ps + Illustrator</span>
-              </li>
-              <li>
-                <span class="t">Mavel URL </span>
-                <span class="d"><a href="https://marvelapp.com/10gj0ic" target="_blank" class="hover">https://marvelapp.com/10gj0ic</a></span>
-              </li>
-              
-            </ul>
-              
-            <a href="http://academyjungle.co.kr/LocalUser/jungleseoul/WPPP_seoul_02/ParkKyuTae/03_br/index.html" target="_blank" class="btn">VIEW</a>
-              
-          </div>
-        </section>
-          
-          
-          <section class="biblecard">
-          <div class="bg"></div>
-            
-          <div class="p-img">
-              <img src="img/br.jpg" alt="minihatch">
-            </div>
-            
-          <div class="info">
-            <h5>WEB Publishing - Gagu Website Design</h5>
-            <h2 class="title">말씀카드 디자인</h2>
-              
-            <ul class="feature">
-              <li>
-                <span class="t">Viewport</span>
-                <span class="d">PC형</span>
-              </li>
-              <li>
-                <span class="t">Tools</span>
-                <span class="d">Ps + HTML5 + CSS + jQuery</span>
-              </li>
-              <li>
-                <span class="t">구성</span>
-                <span class="d">메인 페이지</span>
-              </li>
-              
-            </ul>
-              
-            <a href="http://academyjungle.co.kr/LocalUser/jungleseoul/WPPP_seoul_02/ParkKyuTae/03_br/index.html" target="_blank" class="btn">VIEW</a>
-              
-          </div>
-        </section>
-          
-          
-          <section class="chanel">
-          <div class="bg"></div>
-            
-          <div class="p-img">
-              <img src="img/br.jpg" alt="minihatch">
-            </div>
-            
-          <div class="info">
-            <h5>WEB Publishing - Gagu Website Design</h5>
-            <h2 class="title">샤넬 리플릿 디자인</h2>
-              
-            <ul class="feature">
-              <li>
-                <span class="t">Viewport</span>
-                <span class="d">PC형</span>
-              </li>
-              <li>
-                <span class="t">Tools</span>
-                <span class="d">Ps + HTML5 + CSS + jQuery</span>
-              </li>
-              <li>
-                <span class="t">구성</span>
-                <span class="d">메인 페이지</span>
-              </li>
-              
-            </ul>
-              
-            <a href="http://academyjungle.co.kr/LocalUser/jungleseoul/WPPP_seoul_02/ParkKyuTae/03_br/index.html" target="_blank" class="btn">VIEW</a>
-              
-          </div>
-        </section>
-          
-          
-          <section class="wedding">
-          <div class="bg"></div>
-            
-          <div class="p-img">
-              <img src="img/wedding.png" alt="minihatch">
-            </div>
-            
-          <div class="info">
-            <h5>WEB Publishing - Gagu Website Design</h5>
-            <h2 class="title">결혼예식 순서지 디자인</h2>
-              
-            <ul class="feature">
-              <li>
-                <span class="t">Viewport</span>
-                <span class="d">PC형</span>
-              </li>
-              <li>
-                <span class="t">Tools</span>
-                <span class="d">Ps + HTML5 + CSS + jQuery</span>
-              </li>
-              <li>
-                <span class="t">구성</span>
-                <span class="d">메인 페이지</span>
-              </li>
-              
-            </ul>
-              
-            <a href="http://academyjungle.co.kr/LocalUser/jungleseoul/WPPP_seoul_02/ParkKyuTae/03_br/index.html" target="_blank" class="btn">VIEW</a>
-              
-          </div>
-        </section>
-          
-          
-          <section class="unique">
-          <div class="bg"></div>
-            
-          <div class="p-img">
-              <img src="img/unique.png" alt="unique">
-            </div>
-            
-          <div class="info">
-            <h5>WEB Publishing - Gagu Website Design</h5>
-            <h2 class="title">유니크 비전캠프 디자인</h2>
-              
-            <ul class="feature">
-              <li>
-                <span class="t">Viewport</span>
-                <span class="d">PC형</span>
-              </li>
-              <li>
-                <span class="t">Tools</span>
-                <span class="d">Ps + HTML5 + CSS + jQuery</span>
-              </li>
-              <li>
-                <span class="t">구성</span>
-                <span class="d">메인 페이지</span>
-              </li>
-              
-            </ul>
-              
-            <a href="http://academyjungle.co.kr/LocalUser/jungleseoul/WPPP_seoul_02/ParkKyuTae/03_br/index.html" target="_blank" class="btn">VIEW</a>
-              
-          </div>
-        </section>
-          
-          
-          <section class="sohwakhaeng">
-          <div class="bg"></div>
-            
-          <div class="p-img">
-              <img src="img/br.jpg" alt="sohwakhaeng">
-            </div>
-            
-          <div class="info">
-            <h5>WEB Publishing - Gagu Website Design</h5>
-            <h2 class="title">소확행 포스터 디자인</h2>
-              
-            <ul class="feature">
-              <li>
-                <span class="t">Viewport</span>
-                <span class="d">PC형</span>
-              </li>
-              <li>
-                <span class="t">Tools</span>
-                <span class="d">Ps + HTML5 + CSS + jQuery</span>
-              </li>
-              <li>
-                <span class="t">구성</span>
-                <span class="d">메인 페이지</span>
-              </li>
-              
-            </ul>
-              
-            <a href="http://academyjungle.co.kr/LocalUser/jungleseoul/WPPP_seoul_02/ParkKyuTae/03_br/index.html" target="_blank" class="btn">VIEW</a>
-              
-          </div>
-        </section>
-          
-          
-        <section class="home">
-          <div class="line2"></div>
-            
-          <div class="intro">
-            
-            <h1 class="alt-font">CHOI HYE JI</h1>
-            <h2 class="alt-font">최혜지</h2>
-            <h2 class="alt-font">Email / pinechj@gmail.com</h2>
-            <h2 class="alt-font">pinechj12.dothome.co.kr</h2>
-          </div>
-            
-        </section>
-      </div>
-      <!-- end slide -->
-    </main>
-  </div>
+        </div>
+    </div>
 </body>
+
 </html>
